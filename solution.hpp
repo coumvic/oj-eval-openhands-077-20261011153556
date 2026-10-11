@@ -130,10 +130,6 @@ namespace sjtu {
         }
 
         int& At(int i, int j) {
-            if (i < 0 || i >= current_lines || arrays[i] == nullptr || j < 0 || j >= sizes[i]) {
-                static int dummy = 0;
-                return dummy;
-            }
             return arrays[i][j];
         }
 
