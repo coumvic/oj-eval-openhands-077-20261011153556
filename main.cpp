@@ -1,5 +1,4 @@
 #include "CrossArray.hpp"
-#include <iostream>
 
 int main() {
     // Simple test to ensure compilation
@@ -8,6 +7,5 @@ int main() {
     int test_array[] = {1, 2, 3, 4, 5};
     ca.InsertArrays(test_array, 5);
     
-    std::cout << "CrossArray compiled successfully!" << std::endl;
     return 0;
 }

@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add executable
-add_executable(code main.cpp CrossArray.cpp)
+add_executable(code main.cpp)
 
 # Set compiler flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -O2")
