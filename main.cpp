@@ -1,4 +1,4 @@
-#include "CrossArray.hpp"
+#include "solution.hpp"
 
 int main() {
     // Simple test to ensure compilation
