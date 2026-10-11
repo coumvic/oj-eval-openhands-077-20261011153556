@@ -1,4 +1,4 @@
-#include "solution.hpp"
+#include "simple.hpp"
 
 int main() {
     // Simple test to ensure compilation
